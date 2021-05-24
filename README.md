@@ -13,11 +13,11 @@ Windows、macOS 均测试通过。
 此工具需要带一个参数，即 json 文件所处的目录名称。
 在命令行上，执行：
 
-        node json2srt.js <json 文件的上级目录名>
+    node json2srt.js <json 文件的上级目录名>
 
 如果不知道「json 文件的上级目录名」，可以不带参数执行：
 
-        node json2srt.js
+    node json2srt.js
 
 命令会提示你到哪个目录下去找。
 

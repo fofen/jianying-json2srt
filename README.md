@@ -11,11 +11,14 @@ Windows、macOS 均测试通过。
 #### 2. 第二步，进入命令行。
 
 此工具需要带一个参数，即 json 文件所处的目录名称。
+
+![image](https://user-images.githubusercontent.com/429254/119289434-2bff0800-bc7d-11eb-90d8-6a1ce87c79bd.png)
+
 在命令行上，执行：
 
-    node json2srt.js <json 文件的上级目录名>
+    node json2srt.js <json 文件所在的目录名>
 
-如果不知道「json 文件的上级目录名」，可以不带参数执行：
+如果不知道「json 文件所在的目录名」，可以不带参数执行：
 
     node json2srt.js
 

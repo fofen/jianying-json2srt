@@ -6,12 +6,16 @@ Windows、macOS 均测试通过。
 
 ## 用法
 
-#### 1. 第一步，在「剪映 Pro」软件中，自动生成字幕
+### 1. 第一步，在「剪映 Pro」软件中，自动生成字幕
 
-#### 2. 第二步，进入命令行。
+### 2. 第二步，进入命令行。
 
 此工具需要带一个参数，即 json 文件所处的目录名称。
 
+#### Windows 截图：
+![image](https://user-images.githubusercontent.com/429254/119289688-a3349c00-bc7d-11eb-81d4-fac703f7ecc8.png)
+
+#### macOS 截图
 ![image](https://user-images.githubusercontent.com/429254/119289434-2bff0800-bc7d-11eb-90d8-6a1ce87c79bd.png)
 
 在命令行上，执行：

@@ -13,9 +13,15 @@ Windows、macOS 均测试通过。
 此工具需要带一个参数，即 json 文件所处的目录名称。
 
 #### Windows 截图：
+
+Windows 上，剪映字幕的工作目录是：USER_HOME + '\AppData\Local\JianyingPro\User Data\Projects\com.lveditor.draft\';
+
 ![image](https://user-images.githubusercontent.com/429254/119289688-a3349c00-bc7d-11eb-81d4-fac703f7ecc8.png)
 
 #### macOS 截图
+
+macOS 上，剪映字幕的工作目录是：USER_HOME + '/Movies/JianyingPro/videocut/'
+
 ![image](https://user-images.githubusercontent.com/429254/119289434-2bff0800-bc7d-11eb-90d8-6a1ce87c79bd.png)
 
 在命令行上，执行：
@@ -27,6 +33,15 @@ Windows、macOS 均测试通过。
     node json2srt.js
 
 命令会提示你到哪个目录下去找。
+
+### 生成的 srt 文件在那里？
+
+生成的 srt 文件，和 json 文件在同一个目录。
+
+命令执行成功时，会把生成的 srt 文件路径打印在屏幕上。
+
+- Windows 平台生产的文件是 draft.srt
+- macOS 平台生产的文件是 template.srt
 
 ## 声明
 此命令行工具，是用这个网页版修改而来：

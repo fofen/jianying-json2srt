@@ -17,7 +17,7 @@ jsonFolder = process.argv.slice(2);
 
 // 剪映的工作目录(macOS)
 if (os.platform() == 'darwin') { //macOS 的路径
-    jianyingPath = USER_HOME + '/Movies/JianyingPro/videocut/';
+    jianyingPath = USER_HOME + '/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/';
     // 剪映生成的字幕 json 文件
     jsonFile = jianyingPath + jsonFolder + '/template.json';
     // 程序将生成的 srt 文件

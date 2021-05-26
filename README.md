@@ -14,17 +14,9 @@ Windows、macOS 均测试通过。
 
 此工具需要带一个参数，即 json 文件所处的目录名称。
 
-#### Windows 截图：
-
 Windows 上，剪映字幕的工作目录是：USER_HOME + '\AppData\Local\JianyingPro\User Data\Projects\com.lveditor.draft\';
 
-![image](https://user-images.githubusercontent.com/429254/119289688-a3349c00-bc7d-11eb-81d4-fac703f7ecc8.png)
-
-#### macOS 截图
-
-macOS 上，剪映字幕的工作目录是：USER_HOME + '/Movies/JianyingPro/videocut/'
-
-![image](https://user-images.githubusercontent.com/429254/119289434-2bff0800-bc7d-11eb-90d8-6a1ce87c79bd.png)
+macOS 上，剪映字幕的工作目录是：USER_HOME + '/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/'
 
 在命令行上，执行：
 

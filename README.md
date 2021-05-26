@@ -1,8 +1,9 @@
 # json2srt：剪映字幕 json 转 srt
 
-这是一个命令行 js 程序，需要安装 node
+这是一个命令行 js 程序，**需要安装 node**
 
-Windows、macOS 均测试通过。
+Windows 平台：剪映 1.2.1 测试通过
+macOS：剪映 1.3.1 测试通过
 
 ## 用法
 

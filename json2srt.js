@@ -11,6 +11,7 @@ const fs = require('fs')
 
 // 获取 home 目录
 const USER_HOME = process.env.HOME || process.env.USERPROFILE
+const RN = '\r';
 
 // 当前字幕文件的目录（从命令行读取）
 jsonFolder = process.argv.slice(2);
@@ -18,22 +19,22 @@ jsonFolder = process.argv.slice(2);
 // 剪映的工作目录(macOS)
 if (os.platform() == 'darwin') { //macOS 的路径
     jianyingPath = USER_HOME + '/Movies/JianyingPro/User Data/Projects/com.lveditor.draft/';
+    
     // 剪映生成的字幕 json 文件
-    jsonFile = jianyingPath + jsonFolder + '/template.json';
+    jsonFile = jianyingPath + jsonFolder + '/draft_info.json';
     // 程序将生成的 srt 文件
-    srtFile = jianyingPath + jsonFolder + '/template.srt';
-
+    srtFile = jianyingPath + jsonFolder + '/draft_info.srt';
+    // 换行符
+    let RN = '\r';
 } else { // Windows 的路径
     jianyingPath = USER_HOME + '\\AppData\\Local\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\';
     // 剪映生成的字幕 json 文件
     jsonFile = jianyingPath + jsonFolder + '/draft.json';
     // 程序将生成的 srt 文件
     srtFile = jianyingPath + jsonFolder + '/draft.srt';
+    // 换行符
+    let RN = '\r\n';
 }
-
-// 换行符
-let RN = '\r\n';
-
 
 try {
     if (jsonFolder.length == 0) {
